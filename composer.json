@@ -1,0 +1,24 @@
+{
+    "name": "xcaler/xcli",
+    "description": "The CLI component/agent for Xcaler.",
+    "license": "GPL-2.0",
+    "type": "project",
+    "homepage": "http://xcaler.com",
+    "authors": [
+        {
+            "name": "Bobby Allen",
+            "email": "ballen@bobbyallen.me",
+            "homepage": "http://bobbyallen.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "ballen/clip": "2.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xcaler\\Xcli\\": "app/"
+        }
+    }
+}
